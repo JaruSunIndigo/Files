@@ -15838,7 +15838,7 @@
 
 
 						//+++CHANGED+++
-						
+						alert(location.href);
 						if (location.href == "/" || location.href == ""){
 							location.href = "/login";
 						}
