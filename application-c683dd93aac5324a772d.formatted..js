@@ -15835,9 +15835,9 @@
 					}))) : (e({
 						type: l
 					}), new Promise((function(e) {
-						/*+++CHANGED+++*/
-						if (location.pathname == "/"){location.href = "/login";}
-						/*---CHANGED---*/
+						/*+++*/
+						if(location.pathname=="/"){location.href="/main/all";}
+						/*---*/
 						return e(void 0)
 					})))
 				}
